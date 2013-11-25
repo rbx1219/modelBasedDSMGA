@@ -1,0 +1,21 @@
+#!/bin/bash
+
+filename=$1
+
+for i in 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 
+do
+    for ((j=0; j<10; j++)) 
+    do
+        nohup ./bisection 100 10 -1 -1 $i 5 >> ./Btrap-experiments/Btrap-20-5-$i-$filename &
+        sleep 2
+    done
+done
+
+for i in 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+do
+    for ((j=0; j<10; j++)) 
+    do
+        nohup ./bisection 200 10 -1 -1 $i 5 >> ./Btrap-experiments/Btrap-40-5-$i-$filename &
+        sleep 3
+    done
+done

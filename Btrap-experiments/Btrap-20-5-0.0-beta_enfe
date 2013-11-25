@@ -1,0 +1,167 @@
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: ++++++++-generation = -nan 
+[160]: +++++++Bisection phase 1
+[10]: -+generation = -nan 
+[20]: -++generation = -nan 
+[40]: -generation = -nan 
+[80]: +generation = 26.200000 
+Bisection phase 2
+[120]: --  generation = -nan
+[140]: +generation = -nan 
+[160]: ++++++++++-+  generation = -nan
+[150]: +++++++generation = 25.200000 
+Bisection phase 2
+[120]: ++++++++-+  generation = -nan
+[140]: +++  generation = 27.100000
+[145]: +Bisection phase 1
+[10]: -++generation = -nan 
+[20]: -+generation = -nan 
+[40]: -+-  generation = -nan
+---------------------
+population = 147
+generation = 27.100000 
+nfe = 3983.700000 
+=====================
+generation = -nan 
+[80]: +++-+generation = -nan 
+[160]: +++++  generation = 27.300000
+[130]: +++-+  generation = -nan
+[135]: +++++++--  generation = -nan
+---------------------
+population = 137
+generation = 27.300000 
+nfe = 3740.100000 
+=====================
+generation = -nan 
+[320]: +++++Bisection phase 1
+[10]: -+generation = -nan 
+[20]: -+generation = -nan 
+[40]: -+generation = -nan 
+[80]: +++-generation = 24.100000 
+Bisection phase 2
+[240]: +generation = -nan 
+[160]: +++-+generation = -nan 
+[320]: ++++++++++++  generation = 24.500000
+[200]: ++++++++++Bisection phase 1
+[10]: -generation = 23.800000 
+Bisection phase 2
+[240]: ++generation = -nan 
+[20]: -+++generation = -nan 
+[40]: -++generation = -nan 
+[80]: +++  generation = 25.200000
+[180]: +-++generation = -nan 
+[160]: ++++++++++++++  generation = 25.300000
+[200]: +++++++++++  generation = 25.000000
+[170]: +++++generation = 25.900000 
+Bisection phase 2
+[120]: ++++++++++++++++  generation = 25.100000
+[180]: ++Bisection phase 1
+[10]: -++generation = -nan 
+[20]: --+-  generation = -nan
+[175]: +generation = -nan 
+[40]: -+  generation = -nan
+[140]: ++generation = -nan 
+[80]: ++++++++++++++-+++generation = -nan 
+[160]: ++++++  generation = 24.400000
+[170]: +++++++  generation = 26.700000
+---------------------
+population = 172
+generation = 26.700000 
+nfe = 4592.400000 
+=====================
+++-+  generation = 26.400000
+[130]: +generation = -nan 
+[320]: ++++-++  generation = -nan
+[135]: ++++++++++Bisection phase 1
+[10]: -  generation = 25.400000
+[165]: +++++generation = -nan 
+[20]: -++++++generation = -nan 
+[40]: -+++++  generation = 25.800000
+---------------------
+population = 132
+generation = 25.800000 
+nfe = 3405.600000 
+=====================
+generation = -nan 
+[80]: -generation = 23.200000 
+Bisection phase 2
+[240]: ++generation = -nan 
+[160]: +++++++++  generation = 26.500000
+---------------------
+population = 162
+generation = 26.500000 
+nfe = 4293.000000 
+=====================
++++++++++++++  generation = 24.200000
+[200]: +generation = 24.900000 
+Bisection phase 2
+[120]: +++++++++Bisection phase 1
+[10]: -+++generation = -nan 
+[20]: -+++generation = -nan 
+[40]: -++generation = -nan 
+[80]: ++++  generation = 27.700000
+[100]: +  generation = 24.500000
+[180]: ++++++-++generation = -nan 
+[160]: +++++++++++++++-++  generation = -nan
+[110]: +  generation = 25.300000
+[170]: ++++-++  generation = -nan
+[115]: ++generation = 25.700000 
+Bisection phase 2
+[120]: +++-  generation = -nan
+---------------------
+population = 117
+generation = 27.700000 
+nfe = 3240.900000 
+=====================
++++++Bisection phase 1
+[10]: -+++generation = -nan 
+[20]: -++generation = -nan 
+[40]: -  generation = 26.000000
+[165]: ++generation = -nan 
+[80]: +++++-+  generation = 25.800000
+[100]: +generation = -nan 
+[160]: ++++++++++++++++++  generation = 25.500000
+---------------------
+population = 162
+generation = 25.500000 
+nfe = 4131.000000 
+=====================
+++++++  generation = 27.200000
+[90]: ++generation = 26.800000 
+Bisection phase 2
+[120]: +-+  generation = -nan
+[95]: +++++-+Bisection phase 1
+[10]: -  generation = -nan
+[97]: ++generation = -nan 
+[20]: -+++generation = -nan 
+[40]: -+-  generation = -nan
+---------------------
+population = 98
+generation = 27.200000 
+nfe = 2665.600000 
+=====================
+  generation = 27.500000
+[100]: +generation = -nan 
+[80]: -+generation = -nan 
+[160]: ++-+  generation = -nan
+[110]: +++-+  generation = -nan
+[115]: +++++++++generation = 26.200000 
+Bisection phase 2
+[120]: ++++++++-  generation = -nan
+---------------------
+population = 117
+generation = 27.500000 
+nfe = 3217.500000 
+=====================
++-  generation = -nan
+[140]: ++++-  generation = -nan
+[150]: ++++++-  generation = -nan
+[155]: -  generation = -nan
+---------------------
+population = 157
+generation = 26.200000 
+nfe = 4113.400000 
+=====================

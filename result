@@ -1,0 +1,19 @@
+Gen:0  Fitness:(Max/Mean/Min):3.285047/2.626786/1.993191 Chromsome Length:20
+best chromosome:11111111110100011110
+Gen:1  Fitness:(Max/Mean/Min):3.430093/2.707658/2.117337 Chromsome Length:20
+best chromosome:10111101111111111110
+Gen:2  Fitness:(Max/Mean/Min):3.620062/2.830352/2.163902 Chromsome Length:20
+best chromosome:11101111011111111111
+Gen:3  Fitness:(Max/Mean/Min):3.620062/3.000501/2.334612 Chromsome Length:20
+best chromosome:11101110111111111111
+Gen:4  Fitness:(Max/Mean/Min):3.620062/3.100476/2.452353 Chromsome Length:20
+best chromosome:11101011111111111111
+Gen:5  Fitness:(Max/Mean/Min):3.810031/3.242691/2.747209 Chromsome Length:20
+best chromosome:11101111111111111111
+Gen:6  Fitness:(Max/Mean/Min):4.000000/3.351284/2.911514 Chromsome Length:20
+best chromosome:11111111111111111111
++
+Max DSM memory usage:0 bytes.
+Memory usage of DSM + population: 125 bytes.
+
+7.000000  0

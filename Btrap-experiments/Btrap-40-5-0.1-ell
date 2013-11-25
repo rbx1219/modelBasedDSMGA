@@ -1,0 +1,84 @@
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: +-generation = -nan 
+[160]: ++++++++++generation = 39.700000 
+Bisection phase 2
+[120]: ++++++++++  generation = 42.200000
+[100]: ++++-  generation = -nan
+[110]: ++++-  generation = -nan
+[115]: +-  generation = -nan
+---------------------
+population = 117
+generation = 42.200000 
+nfe = 4937.400000 
+=====================
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: -generation = -nan 
+[160]: +++-generation = -nan 
+[320]: ++++++++++generation = 38.800000 
+Bisection phase 2
+[240]: ++++++++++  generation = 39.300000
+[200]: ++++++++++  generation = 39.700000
+[180]: ++++++++++  generation = 39.800000
+[170]: ++++++++++  generation = 40.500000
+[165]: ++++++++++  generation = 40.600000
+---------------------
+population = 162
+generation = 40.600000 
+nfe = 6577.200000 
+=====================
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: +-generation = -nan 
+[160]: ++++++++++generation = 40.400000 
+Bisection phase 2
+[120]: ++++++++++  generation = 41.600000
+[100]: -  generation = -nan
+[110]: +-  generation = -nan
+[115]: +-  generation = -nan
+---------------------
+population = 117
+generation = 41.600000 
+nfe = 4867.200000 
+=====================
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: +-generation = -nan 
+[160]: ++++++++++generation = 40.800000 
+Bisection phase 2
+[120]: ++++++++++  generation = 41.500000
+[100]: ++++++++++  generation = 42.800000
+[90]: -  generation = -nan
+[95]: +++++++-  generation = -nan
+[97]: -  generation = -nan
+---------------------
+population = 98
+generation = 42.800000 
+nfe = 4194.400000 
+=====================
+Bisection phase 1
+[10]: -generation = -nan 
+[20]: -generation = -nan 
+[40]: -generation = -nan 
+[80]: -generation = -nan 
+[160]: +++++++-generation = -nan 
+[320]: ++++++++++generation = 38.500000 
+Bisection phase 2
+[240]: ++++-  generation = -nan
+[280]: ++++++++++  generation = 38.400000
+[260]: ++++++++++  generation = 39.200000
+[250]: ++++++++++  generation = 39.600000
+---------------------
+population = 245
+generation = 39.600000 
+nfe = 9702.000000 
+=====================
