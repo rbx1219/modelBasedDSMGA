@@ -69,7 +69,7 @@
 
            for ( j = 0;  j < numConvergence;  ++j) 
            {
-               DSMGA ga(ell, populationSize, 2, 1, 0, MAX_GEN, -1);
+               DSMGA ga(ell, populationSize, 4, 1, 0, MAX_GEN, -1);
                int generation = ga.doIt(false);
 
 

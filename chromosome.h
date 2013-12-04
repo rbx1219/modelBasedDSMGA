@@ -85,6 +85,7 @@ public:
     double hTrap () const;
     double MKHC () const;
     double Trap3339 () const;
+	double cheat () const;
 
     double BTrap () const;
     double bezier(int) const;

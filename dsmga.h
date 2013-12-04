@@ -70,6 +70,8 @@ class DSMGA
 
         bool isSteadyState ();
 
+		static int generation;
+		static int threshold;
     protected:
 
         BBI bbi;                                  // BB Information
@@ -89,7 +91,7 @@ class DSMGA
         int maxFe;
         int repeat;
         int fe;
-        int generation;
+//        int generation;
         int bestIndex;
 
         Statistics stFitness;

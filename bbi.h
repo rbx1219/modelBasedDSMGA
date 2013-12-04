@@ -38,6 +38,8 @@ public:
   int getNumofMatchedBB(const BBI & bbi) const;
 
    ~BBI ();
+  
+  int **best;
 
   int bbNum;
   int ell;
