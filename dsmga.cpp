@@ -1,10 +1,11 @@
 
 #include "dsmga.h"
 #include "chromosome.h"
+#include <iostream>
 
 int DSMGA::generation = 0;
 int DSMGA::threshold = 120000000;
-
+int *DSMGA::best = NULL;
 
 DSMGA::DSMGA (int n_ell, int n_nInitial, int n_selectionPressure, double n_pc,
 		double n_pm, int n_maxGen, int n_maxFe) {
@@ -123,10 +124,8 @@ void DSMGA::replacePopulation () {
 			printf ("%d ", selectionIndex[i]);
 		printf ("\n");
 	}
-	if(generation >= threshold )
-		fullReplace();
-	else
-		RTR();
+	//fullReplace();
+	RTR();
 	//DRTR();
 }
 
@@ -414,6 +413,49 @@ void DSMGA::oneRun (bool output) {
 	crossOver ();
 	mutation ();
 	replacePopulation ();
+
+	//Building Schemata Info
+
+	int BestSchemata[bbi.bbNum];
+
+	int curBB , curPiece , curLocus;
+	for(curBB = 0 ; curBB < bbi.bbNum ; curBB++)
+	{
+		int schemataTotal = pow( 2 , bbi.bb[curBB][0] ) ;
+		double *candidate = new double[schemataTotal];
+		int *schemataCounts = new int[schemataTotal];
+		int maxIndex = 0;
+
+
+		for(int j = 0 ; j < schemataTotal ; j++)
+			candidate[j] = 0.0 , schemataCounts[j] = 0;
+
+
+		for( curPiece = 0 ; curPiece < nCurrent ; curPiece++)
+		{
+			int count = 0;
+			for(curLocus = 0 ; curLocus < bbi.bb[curBB][0] ; curLocus++)
+				if(population[curPiece].getVal( bbi.bb[curBB][curLocus + 1] ) == 1)
+					count += pow(2 , curLocus);
+			candidate[count] += population[curPiece].getFitness();
+			schemataCounts[count] ++ ;
+		}
+
+		double maxFit = candidate[0] / schemataCounts[0]; 
+		for(int j = 1 ; j < schemataTotal ; j++)
+			if(candidate[j] / schemataCounts[j] > maxFit)
+			{
+				maxFit = candidate[j] / schemataCounts[j] ; 
+				maxIndex = j;
+			}
+		BestSchemata[curBB] = maxIndex;
+		delete[] candidate;
+		delete[] schemataCounts;
+	}
+
+	DSMGA::best = BestSchemata;	
+
+	//
 
 	double max = -INF;
 	stFitness.reset ();

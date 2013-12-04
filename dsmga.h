@@ -72,7 +72,8 @@ class DSMGA
 
 		static int generation;
 		static int threshold;
-    protected:
+		static int * best;
+	protected:
 
         BBI bbi;                                  // BB Information
         bool bbiCalculated;
